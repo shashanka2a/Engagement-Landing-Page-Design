@@ -237,6 +237,20 @@ END:VCALENDAR`
           </motion.div>
         </motion.div>
       </section>
+      {/* Footer */}
+      <footer className="px-4 sm:px-6 py-8 text-center text-[#2B2B2B]/70">
+        <span className="inline-block" style={{ fontFamily: '"Inter", sans-serif' }}>
+          made with <span aria-hidden>💛</span> by{' '}
+          <a
+            href="http://bloomora.services/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#D4AF37] underline-offset-4 hover:underline"
+          >
+            Bloomora
+          </a>
+        </span>
+      </footer>
     </div>
   )
 }
