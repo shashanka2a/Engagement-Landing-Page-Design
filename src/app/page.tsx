@@ -64,7 +64,13 @@ END:VCALENDAR`
             transition={{ delay: 0.3, duration: 1 }}
             className="mb-6 sm:mb-8"
           >
-            <Heart className="w-12 h-12 sm:w-16 sm:h-16 mx-auto text-[#D4AF37] mb-4 sm:mb-6" fill="#D4AF37" />
+            <span
+              className="mx-auto mb-4 sm:mb-6 block"
+              style={{ fontSize: '3rem', lineHeight: 1 }}
+              aria-hidden
+            >
+              💍
+            </span>
           </motion.div>
 
           <motion.h1
@@ -74,7 +80,7 @@ END:VCALENDAR`
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Sharath 💍 Meghana.
+            Sharath & Meghana.
           </motion.h1>
 
           <motion.p
