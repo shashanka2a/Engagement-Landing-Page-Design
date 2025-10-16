@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/shashankjagannatham/Downloads/Engagement Landing Page Design/src/app/layout":["static/media/fa3e259cafa8f47e-s.p.woff2","static/media/e4af272ccee01ff0-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none">
+  <!-- Simple ring favicon inspired by Lucide style -->
+  <circle cx="12" cy="14" r="6" stroke="#D4AF37" stroke-width="2" fill="none"/>
+  <path d="M9 5h6l-2 3h-2L9 5z" fill="#D4AF37"/>
+</svg>
+
+
