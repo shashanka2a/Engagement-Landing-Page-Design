@@ -120,10 +120,11 @@ END:VCALENDAR`
               href="https://maps.app.goo.gl/G2XARim27wVUCk7W9"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-[#E6C47B] to-[#C9A34E] hover:from-[#D4AF37] hover:to-[#B8922E] text-[#2B2B2B] px-6 sm:px-8 py-5 sm:py-6 shadow-xl hover:shadow-2xl transition-all duration-300 w-full sm:w-auto rounded-md font-medium"
+              className="inline-block text-lg sm:text-xl md:text-2xl text-[#D4AF37] hover:text-[#B8922E] underline decoration-[#D4AF37] hover:decoration-[#B8922E] decoration-2 underline-offset-4 transition-all duration-300"
+              style={{ fontFamily: '"DM Serif Display", serif' }}
             >
-              <MapPin className="w-4 h-4 sm:w-5 sm:h-5 mr-2 inline" />
-              View Location
+              <MapPin className="w-5 h-5 sm:w-6 sm:h-6 mr-2 inline" />
+              Guduguntla Appaiah Subbamma Kalyana Mandapam, Kodad
             </a>
           </motion.div>
         </motion.div>
