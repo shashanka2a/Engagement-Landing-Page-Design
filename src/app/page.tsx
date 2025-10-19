@@ -8,16 +8,16 @@ import { ConfettiEffect } from '@/components/ConfettiEffect'
 export default function Page() {
   const generateCalendarFile = () => {
     const event = {
-      title: 'Sharath & Meghana Engagement Ceremony',
-      description: 'Join us to celebrate the engagement of Sharath & Meghana',
-      location: 'Guduguntla Appaya-Subbama (GAS) Kalyana Mandapam, Kodad',
-      start: '20251024T053000Z',
-      end: '20251024T083000Z',
+      title: 'Sharath Reddy & Neetha Meghana Engagement Ceremony',
+      description: 'Join us to celebrate the engagement of Sharath Reddy & Neetha Meghana',
+      location: 'Guduguntla Appaiah Subbamma Kalyana Mandapam, Kodad',
+      start: '20251024T043000Z',
+      end: '20251024T073000Z',
     }
 
     const icsContent = `BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Sharath & Meghana//Engagement//EN
+PRODID:-//Sharath Reddy & Neetha Meghana//Engagement//EN
 BEGIN:VEVENT
 DTSTART:${event.start}
 DTEND:${event.end}
@@ -32,7 +32,7 @@ END:VCALENDAR`
     const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' })
     const link = document.createElement('a')
     link.href = URL.createObjectURL(blob)
-    link.download = 'sharath-meghana-engagement.ics'
+    link.download = 'sharath-reddy-neetha-meghana-engagement.ics'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -80,7 +80,7 @@ END:VCALENDAR`
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Sharath & Meghana.
+            Sharath Reddy & Neetha Meghana.
           </motion.h1>
 
           <motion.p
@@ -90,7 +90,12 @@ END:VCALENDAR`
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 1 }}
           >
-            Gogula Somi Reddy & Vimala, cordially invite you to celebrate their engagement ceremony.
+            With great joy,<br />
+            <span className="underline decoration-[#D4AF37] decoration-2 underline-offset-4">
+              Gogula Somi Reddy & Vimala
+            </span>
+            <br />
+            cordially invite you to celebrate the engagement
           </motion.p>
 
           <motion.div
@@ -101,9 +106,9 @@ END:VCALENDAR`
           >
             <div className="flex flex-col sm:inline-flex sm:flex-row items-center gap-2 sm:gap-3 text-lg sm:text-xl md:text-2xl text-[#D4AF37] mb-2" style={{ fontFamily: '"DM Serif Display", serif' }}>
               <Calendar className="w-5 h-5 sm:w-6 sm:h-6" />
-              <span className="text-center">Friday, October 24, 2025</span>
+              <span className="text-center">Friday, October 24th, 2025</span>
             </div>
-            <p className="text-base sm:text-lg text-[#2B2B2B]/70">11:00 AM</p>
+            <p className="text-base sm:text-lg text-[#2B2B2B]/70">10:00 AM</p>
           </motion.div>
 
           <motion.div
@@ -165,14 +170,14 @@ END:VCALENDAR`
               </div>
 
               <a
-                href="https://www.google.com/maps/search/Guduguntla+Appaya-Subbama+Kalyana+Mandapam+Kodad"
+                href="https://maps.app.goo.gl/G2XARim27wVUCk7W9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group block"
               >
                 <div className="bg-gradient-to-r from-[#D4AF37]/5 to-[#D4AF37]/10 rounded-lg sm:rounded-xl p-4 sm:p-6 border-2 border-[#D4AF37]/30 active:border-[#D4AF37] sm:group-hover:border-[#D4AF37] transition-all duration-300 sm:group-hover:shadow-lg">
                   <p className="text-xl sm:text-2xl md:text-3xl text-[#2B2B2B] mb-2 active:text-[#D4AF37] sm:group-hover:text-[#D4AF37] transition-colors duration-300 leading-tight" style={{ fontFamily: '"DM Serif Display", serif' }}>
-                    Guduguntla Appaya-Subbama (GAS) Kalyana Mandapam
+                    Guduguntla Appaiah Subbamma Kalyana Mandapam
                   </p>
                   <p className="text-base sm:text-lg text-[#2B2B2B]/70">Kodad</p>
                   <div className="flex items-center gap-2 mt-3 text-[#D4AF37]">
@@ -212,7 +217,7 @@ END:VCALENDAR`
             {/* CTA Button */}
             <div className="p-5 sm:p-8 md:p-10 bg-gradient-to-b from-white to-[#FFFDF7]">
               <a
-                href="https://www.google.com/maps/search/Guduguntla+Appaya-Subbama+Kalyana+Mandapam+Kodad"
+                href="https://maps.app.goo.gl/G2XARim27wVUCk7W9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
